@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 700px;
+    margin: 0 auto;
+}
+.main {
+    height: 350px;
+    background-color: blanchedalmond;
+}
+.main .photo_img {
+    display: block;
+    width: 350px;
+    height: 260px;
+    margin: 0 auto;
+}
+.main .main_heading {
+    text-align: center;
+    text-transform: uppercase;
+    color: darkslategrey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+
+.main .main_subheading {
+    text-align: center;
+    text-transform: uppercase;
+    color: darkslategrey; 
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.main .contact_list {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+.main .contact_item {
+    display: inline;
+    color: darkslategrey;
+    font-weight: bold;
+}
+.main .contact_item i {
+    padding-right: 5px;
+}
+.about_me {
+    height: 330px;
+}
+.about_me .about_me_heading {
+    text-align: center;
+    text-transform: uppercase;
+    color: darkslategrey; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 15px 0 15px 0;
+}
+.about_me .about_me_descr {
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+.experience {
+    height: 330px;
+    background-color: blanchedalmond;
+}
+.experience .experience_heading {
+    text-align: center;
+    text-transform: uppercase;
+    color: darkslategrey; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 15px;
+}
+.experience .experience_date {
+    text-align: center;
+    text-transform: uppercase;
+    color: darkslategrey; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 15px;
+}
+.experience .experience_descr {
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+.education {
+    height: 150px;
+}
+.education .education_heading {
+    text-align: center;
+    text-transform: uppercase;
+    color: darkslategrey; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 15px 0 15px 0;
+}
+.education .education_descr {
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+.skills {
+    height: 240px;
+    background-color: blanchedalmond;
+}
+.skills .skills_heading {
+    text-align: center;
+    text-transform: uppercase;
+    color: darkslategrey; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 15px 0 15px 0;
+}
+.skills .skills_list {
+    list-style-type: none;
+    text-align: center;
+}
+.skills .skills_item {
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
